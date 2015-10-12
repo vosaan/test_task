@@ -1,0 +1,238 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+	font-family: Verdana;
+	font-size: 14px;
+}
+
+h2{
+	margin: 0;
+}
+
+/* * СТРУКТУРА СТРАНИЦЫ * */
+.wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+}
+
+  .page {
+    /* Отсуп для "подвала", "подвал" должен быть такой же высоты*/
+    padding-bottom: 100px;
+  }
+  
+    /* "Шапка" */
+  	header{
+  		width: 100%;
+  		height: 50px;
+  		background-color: #123456;
+  		color: #fff;
+  	}
+  	
+      /* Контентная часть "шапки", страницы и "подвала" */
+  	 	.header_content, .footer_content, .page_content{
+        width: 960px;
+  			margin: 0 auto;
+  			background-color: inherit;
+  			height: inherit;
+  		}
+  		
+      /* Ссылки для "шапки" */
+  		.header_content a{
+  			color: #fff;
+  			text-decoration: none;
+  		}			
+  		
+  		.header_content a:hover{
+  			text-decoration: underline;
+  		}
+  		
+        /* Контентная часть "шапки" */
+    		.header_content_left, .header_content_right{
+    			margin-top: 17px;
+    			float: left;
+    		}
+
+    		.header_content_left{
+    			width: 700px;
+    		}
+
+  			.header_content_left ul{
+  				margin:0;
+  				padding:0;				
+  			}
+  			
+        .header_content_left ul li{
+  				display: inline;
+  				margin-right: 40px;
+  			}
+  		
+  		
+        .header_content_right{
+    			width: 260px;
+    			text-align: right;
+    		}
+  			  
+          /* Кнопка "Выйти" */   
+          .logoutbtn{
+          	padding: 1px 6px;
+          	border: 1px solid #fff;
+          	text-decoration: none;
+          }
+
+    /* Содержание страницы */
+    .page_content{
+      margin-top: 20px;
+    }
+
+/* "Подвал" */
+footer {
+  height: 100px;
+  margin-top: -100px;
+  background: #123456;
+  color: #fff;
+}
+
+  .footer_content_copy{
+    float: left;
+    margin-top: 40px;
+    width: 100%;
+    text-align: center;
+  }
+/* * //СТРУКТУРА СТРАНИЦЫ * */
+
+.reg_wrap{
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 240px;
+}
+
+  .reg_wrap_form{
+    border: 1px solid #ddd;
+    border-radius: 5px 5px 0 0;
+    padding: 20px;
+    
+  }
+
+  .reg_wrap_text{
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0 0 5px 5px;
+    padding: 20px;  
+  }
+
+  .reg_wrap_text p{
+    margin: 0 0 10px 0; 
+  }
+
+.auth_wrap{
+  margin: 0 auto;
+  width: 200px;
+  margin-top: 100px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+}  
+
+.form_field{
+  box-sizing: border-box;
+  max-width: 200px;
+  min-width: 200px;
+  margin-top: 4px;
+}
+
+
+.feed_user_date{
+color: #aaa;
+font-size: 12px;
+}
+
+
+
+.feedform{
+width: 500px;
+margin: 0 auto;
+border: 1px solid #ddd;
+border-radius: 5px;
+margin-top: 100px;
+padding: 20px;
+}
+.title_field{
+  width: 492px;
+}
+
+textarea{
+  max-width: 492px;
+  min-width: 492px;
+  max-height: 200px;
+  min-height: 200px;
+  resize: none;
+}
+
+
+.submit{
+text-align: center;
+}
+
+.reg_notice{
+font-size: 10px;
+margin-top: 2px;
+color: #888;
+}
+
+.feed_element{
+border: 1px solid #ddd;
+border-radius: 5px;
+padding: 10px;
+margin-bottom: 10px;
+background-color: #eee;
+}
+
+.feed_element h3{
+margin-top: 0;
+}
+
+/**************************************/
+.error input,
+.error textarea {
+  border: 1px solid red;
+}
+    
+.error {
+  color: red;
+}
+
+.valid_error{
+  color: red;
+  font-size: 10px;
+  height: 10px;
+}
+
+.req_stars{
+  color: red;
+  font-size: 10px;
+  vertical-align: super;
+}
+
+.req_text{
+  
+  font-size: 10px;
+}
+
+.fail{
+  width: 500px;
+  margin: 0 auto;
+  border: 1px solid red;
+  border-radius: 5px;
+  margin-top: 100px;
+  text-align: center;
+  padding: 20px;
+}
+
+  .fail h3{
+    color: red;
+    margin-top: 0;
+  }
